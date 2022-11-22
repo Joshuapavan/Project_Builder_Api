@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  project_type: MyString
+  project_manager: MyString
+  start_date: 2022-11-22
+  end_date: 2022-11-22
+  project_closure_status: false
+
+two:
+  user: two
+  project_type: MyString
+  project_manager: MyString
+  start_date: 2022-11-22
+  end_date: 2022-11-22
+  project_closure_status: false

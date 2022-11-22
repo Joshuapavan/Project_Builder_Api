@@ -3,4 +3,10 @@ Rails.application.routes.draw do
     sessions: 'users/sessions',
     registrations: 'users/registrations'
   }
+
+  namespace :api do
+    namespace :v1 do
+      resources :projects, :clients
+    end
+  end
 end
